@@ -1,5 +1,5 @@
 {
-    "name": "yiithings/yii2-dotenv",
+    "name": "dimanzver/yii2-dotenv",
     "description": "PHP DotEnv for Yii2 framework",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","dotenv"],
@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "php": ">=8.0",
+        "php": "^7.4 || ^8.0",
         "yiisoft/yii2": "*",
         "vlucas/phpdotenv": "^5.3"
     },
