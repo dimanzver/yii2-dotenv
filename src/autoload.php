@@ -41,6 +41,9 @@ if ( ! function_exists('env')) {
             }
         }
         $value = getenv($name);
+        if (empty($value)) {
+            $value = $_ENV[$name] ?? false;
+        }
 
         return $value ? $value : $default;
     }
